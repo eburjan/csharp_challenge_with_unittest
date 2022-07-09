@@ -1,0 +1,22 @@
+Architecture:
+- central Form (Form1.cs)
+- classes for mapping xml structure to c# classes (WebOrder, WebOrderItem, XmlDateTime),
+- and separate class responsible for conversion before displaying results (UiResult) to have better separation of concerns (SOLID).
+
+Guards:
+- Process button is not enabled until an existing file is chosen, additionally it is disabled if a nonexistent file is named in the textbox before processing. /Textbox path is the input for the processing./
+- Result ui is cleared when buttons are clicked. Populated at successful xml processing to keep consistent Ui.
+- Method 'ProcessXml' uses Streamreader within 'using' keyword to safeguard failures and handle disposing.
+
+Considerations:
+- UiResult is kept as member variable, because project may evolve to send, persist the data, when the calculated result might be necessary.
+- UiResult role and name is subject to code review decision and further discussions.
+- Methods are aimed to be short and to have easily understandable scope (comment for Form1).
+
+Testing:
+- unit testing is added for UiResult class, to test whether conversion fulfills the requirements or not.
+- integration testing may be added for the overall application.
+
+SLN file location: in directory 'weborder_reader'.
+EXE file location: in directory 'weborder_reader\bin\Debug\netcoreapp3.1'
+

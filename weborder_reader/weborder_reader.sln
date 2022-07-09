@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30204.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "weborder_reader", "weborder_reader.csproj", "{BD38215A-B9FF-42E7-BB9C-B14176B81E82}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "weborder_reader_unittest", "..\weborder_reader_unittest\weborder_reader_unittest.csproj", "{94C077F4-0AEB-413F-89AB-ACAB0939C445}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BD38215A-B9FF-42E7-BB9C-B14176B81E82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD38215A-B9FF-42E7-BB9C-B14176B81E82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD38215A-B9FF-42E7-BB9C-B14176B81E82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD38215A-B9FF-42E7-BB9C-B14176B81E82}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94C077F4-0AEB-413F-89AB-ACAB0939C445}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94C077F4-0AEB-413F-89AB-ACAB0939C445}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94C077F4-0AEB-413F-89AB-ACAB0939C445}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94C077F4-0AEB-413F-89AB-ACAB0939C445}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {94A1AD8A-78CA-4C26-9516-4C8F6B984FBB}
+	EndGlobalSection
+EndGlobal
